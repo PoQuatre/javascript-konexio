@@ -12,3 +12,8 @@ console.log(`Nice to meet you ${name}`);
 // Exercice 4
 let testlength = "I'm very long !";
 console.log(testlength.length);
+
+// Exercice 5
+let food = "croissant is meh";
+food = food.replace("meh", "so good");
+console.log(food);
