@@ -23,3 +23,8 @@ let basic = "This is Cool";
 let basicUp = basic.toUpperCase();
 let basicDown = basic.toLowerCase();
 console.log({ basic, basicUp, basicDown });
+
+// Exercice 7
+let word = "banana";
+let letters = word.split("");
+console.log(letters);
