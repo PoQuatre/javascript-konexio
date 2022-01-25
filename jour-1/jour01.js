@@ -33,3 +33,7 @@ console.log(letters);
 let age = "19";
 let template = `I'm ${age} years old`;
 console.log(template);
+
+// Bonus
+let bonus = "Here is a string\non multiple lines\nusing both ' and \"";
+console.log(bonus);
