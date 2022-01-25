@@ -17,3 +17,9 @@ console.log(testlength.length);
 let food = "croissant is meh";
 food = food.replace("meh", "so good");
 console.log(food);
+
+// Exercice 6
+let basic = "This is Cool";
+let basicUp = basic.toUpperCase();
+let basicDown = basic.toLowerCase();
+console.log({ basic, basicUp, basicDown });
