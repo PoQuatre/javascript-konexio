@@ -34,3 +34,8 @@ console.log(test2 == bis2);
 console.log(test2 === bis2);
 console.log(test2 != bis2);
 console.log(test2 !== bis2);
+
+// Exercice 6
+let limit = 50;
+let score = 48;
+console.log(score >= limit ? "Ok good !" : "Oh nooo...");
