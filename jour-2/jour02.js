@@ -22,3 +22,15 @@ console.log(test * bis);
 console.log(test / bis);
 console.log(test ** bis);
 console.log(test % bis);
+
+// Exercice 5
+let test2 = 142;
+let bis2 = 219;
+console.log(test2 > bis2);
+console.log(test2 < bis2);
+console.log(test2 >= bis2);
+console.log(test2 <= bis2);
+console.log(test2 == bis2);
+console.log(test2 === bis2);
+console.log(test2 != bis2);
+console.log(test2 !== bis2);
