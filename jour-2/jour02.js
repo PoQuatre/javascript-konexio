@@ -39,3 +39,9 @@ console.log(test2 !== bis2);
 let limit = 50;
 let score = 48;
 console.log(score >= limit ? "Ok good !" : "Oh nooo...");
+
+// Exercice 7
+let password = "azerty";
+if (password.length > 5) {
+  console.log("The password is secure");
+}
