@@ -54,3 +54,7 @@ if (score >= limit && password.length > 5) {
 } else {
   console.log("Nothing is good");
 }
+
+// Bonus 1
+let random = Math.ceil(Math.random() * 6);
+console.log(random === 6 ? "Yes I win !" : "So close...");
