@@ -12,3 +12,13 @@ console.log(stringified);
 let num = 1.5;
 let rounded = Math.round(num);
 console.log(rounded);
+
+// Exercice 4
+let test = 12;
+let bis = 5;
+console.log(test + bis);
+console.log(test - bis);
+console.log(test * bis);
+console.log(test / bis);
+console.log(test ** bis);
+console.log(test % bis);
