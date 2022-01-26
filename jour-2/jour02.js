@@ -7,3 +7,8 @@ console.log({ integer, float });
 let basic = 34;
 let stringified = basic.toString();
 console.log(stringified);
+
+// Exercice 3
+let num = 1.5;
+let rounded = Math.round(num);
+console.log(rounded);
