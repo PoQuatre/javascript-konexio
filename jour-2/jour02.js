@@ -58,3 +58,31 @@ if (score >= limit && password.length > 5) {
 // Bonus 1
 let random = Math.ceil(Math.random() * 6);
 console.log(random === 6 ? "Yes I win !" : "So close...");
+
+// Bonus 2
+let month = "April";
+switch (month.toLowerCase()) {
+  case "january":
+  case "february":
+  case "march":
+    console.log("Winter");
+    break;
+  case "april":
+  case "may":
+  case "june":
+    console.log("Spring");
+    break;
+  case "july":
+  case "august":
+  case "september":
+    console.log("Summer");
+    break;
+  case "october":
+  case "november":
+  case "december":
+    console.log("Fall");
+    break;
+  default:
+    console.log(`'${month}' is not a valid month.`);
+    break;
+}
