@@ -86,3 +86,22 @@ switch (month.toLowerCase()) {
     console.log(`'${month}' is not a valid month.`);
     break;
 }
+
+// Bonus 3
+function round(num) {
+  let floorDiff = num - Math.floor(num);
+  let ceilDiff = Math.ceil(num) - num;
+  return ceilDiff <= floorDiff ? Math.ceil(num) : Math.floor(num);
+}
+
+function floor(num) {
+  num = num.toString();
+  let dot = num.indexOf(".");
+  return num.substring(0, dot === -1 ? num.length : dot);
+}
+
+console.log(round(3.6));
+console.log(round(3.3));
+console.log(round(3.8));
+console.log(round(12.4));
+console.log(floor(3.4));
