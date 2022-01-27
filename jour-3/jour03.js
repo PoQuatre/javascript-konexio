@@ -31,3 +31,13 @@ console.log(numbers);
 
 numbers.sort((a, b) => a - b);
 console.log(numbers);
+
+// Exercice 5
+let total = 0;
+let limit = 10;
+
+for (let i = 0; i <= limit; i++) {
+  total += i;
+}
+
+console.log(total);
