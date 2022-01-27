@@ -52,3 +52,11 @@ for (let i = 0; i < sentenceLetters.length; i++) {
 }
 
 console.log(result.join(""));
+
+// Bonus 1
+for (let i = 0; i < 100; i++) {
+  let result = "";
+  if (i % 3 === 0) result += "fizz";
+  if (i % 5 === 0) result += "buzz";
+  if (i % 7 !== 0) console.log(result || i);
+}
