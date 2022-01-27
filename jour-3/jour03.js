@@ -22,3 +22,12 @@ console.log(objects);
 
 objects.shift();
 console.log(objects);
+
+// Exercice 4
+let numbers = [4, 10, 8, 12, 6];
+
+numbers.reverse();
+console.log(numbers);
+
+numbers.sort((a, b) => a - b);
+console.log(numbers);
