@@ -93,5 +93,22 @@ let names = [
   "Omar",
 ];
 
-let index = Math.ceil(Math.random() * names.length);
+let index = Math.floor(Math.random() * names.length);
 console.log(names[index]);
+
+// Bonus 4
+let randomNumbers = [];
+
+for (let i = 0; i < 20; i++) {
+  randomNumbers.push(Math.floor(Math.random() * 101));
+}
+
+console.log(randomNumbers);
+
+let max = 0;
+
+for (let i = 0; i < randomNumbers.length; i++) {
+  if (randomNumbers[i] > max) max = randomNumbers[i];
+}
+
+console.log(max);
