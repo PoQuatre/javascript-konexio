@@ -72,3 +72,26 @@ while (i <= limit2) {
 }
 
 console.log(total2);
+
+// Bonus 3
+let names = [
+  "Alexandre C.",
+  "Erfan",
+  "Joël",
+  "Yanisse",
+  "Marvin",
+  "Naïm",
+  "Ismail",
+  "Ethan",
+  "Al",
+  "Matéo",
+  "Alexandre T.",
+  "Ibrahima",
+  "Lies",
+  "Chams",
+  "Tenzin",
+  "Omar",
+];
+
+let index = Math.ceil(Math.random() * names.length);
+console.log(names[index]);
