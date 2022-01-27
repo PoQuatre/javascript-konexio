@@ -50,3 +50,14 @@ compare(3, 9);
 compare(39, 9);
 compare(83, 192);
 compare(53, 53);
+
+// Exercice 5
+function addUp(num) {
+  let result = 0;
+  for (let i = 1; i <= num; i++) {
+    result += i;
+  }
+  return result;
+}
+
+console.log(addUp(12));
