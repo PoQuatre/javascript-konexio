@@ -61,3 +61,14 @@ function addUp(num) {
 }
 
 console.log(addUp(12));
+
+// Exercice 6
+function format(num) {
+  let hours = Math.floor(num / 3600);
+  num %= 3600;
+  let mins = Math.floor(num / 60);
+  num %= 60;
+  return `${hours}:${mins}:${num}`;
+}
+
+console.log(format(3700));
