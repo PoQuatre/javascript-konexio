@@ -32,3 +32,21 @@ checkIfEven(-22);
 checkIfEven(12);
 checkIfEven(47);
 checkIfEven(58);
+
+// Exercice 4
+function compare(num1, num2) {
+  if (num1 > num2) {
+    console.log(num1, "is bigger than", num2);
+  } else if (num1 < num2) {
+    console.log(num1, "is smaller than", num2);
+  } else if (num1 === num2) {
+    console.log(num1, "is equal to", num2);
+  } else {
+    console.error("unsupported case");
+  }
+}
+
+compare(3, 9);
+compare(39, 9);
+compare(83, 192);
+compare(53, 53);
