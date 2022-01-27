@@ -41,3 +41,14 @@ for (let i = 0; i <= limit; i++) {
 }
 
 console.log(total);
+
+// Exercice 6
+let sentence = "Hello Konexio !";
+let sentenceLetters = sentence.split("");
+let result = [];
+
+for (let i = 0; i < sentenceLetters.length; i++) {
+  result.unshift(sentenceLetters[i]);
+}
+
+console.log(result.join(""));
