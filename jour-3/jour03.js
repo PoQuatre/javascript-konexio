@@ -60,3 +60,15 @@ for (let i = 0; i < 100; i++) {
   if (i % 5 === 0) result += "buzz";
   if (i % 7 !== 0) console.log(result || i);
 }
+
+// Bonus 2
+let total2 = 0;
+let limit2 = 10;
+let i = 0;
+
+while (i <= limit2) {
+  total2 += i;
+  i++;
+}
+
+console.log(total2);
