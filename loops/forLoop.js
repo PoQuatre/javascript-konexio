@@ -23,3 +23,15 @@ for (let i = 0; i < 20; i++) {
 }
 
 console.log("Exercice 3 -->", result);
+
+// Exercice 4
+var box1 = 12;
+var box2 = 5;
+for (var i = 12; i < 14; i++) {
+  box1 = box2;
+  console.log("Exercice 4 -->", box1 + box2);
+  box2 = box1 + i;
+}
+console.log("Exercice 4 -->", box1);
+console.log("Exercice 4 -->", box2);
+console.log("Exercice 4 -->", i);
