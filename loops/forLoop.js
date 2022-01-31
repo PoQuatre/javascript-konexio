@@ -35,3 +35,12 @@ for (var i = 12; i < 14; i++) {
 console.log("Exercice 4 -->", box1);
 console.log("Exercice 4 -->", box2);
 console.log("Exercice 4 -->", i);
+
+// Exercice 5
+var box1 = 12;
+for (var i = 12; i !== 0; i = i - 3) {
+  console.log("Exercice 5 -->", box1);
+  box1 = box1 + i;
+}
+console.log("Exercice 5 -->", box1);
+console.log("Exercice 5 -->", i);
