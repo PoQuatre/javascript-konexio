@@ -42,3 +42,16 @@ while (i < numbers.length) {
   }
   i++;
 }
+
+// Exercice 4
+let words = ["hello", "goodbye", "yes", "no", "stop", "go go go"];
+let total = 0;
+
+for (let i = 0; i < words.length; i++) {
+  let letters = words[i].split("");
+  for (let j = 0; j < letters.length; j++) {
+    if (letters[j] === "o") total++;
+  }
+}
+
+console.log("Exercice 4 -->", total);
