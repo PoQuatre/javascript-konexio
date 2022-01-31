@@ -30,3 +30,12 @@ console.log(
   ussainBolt > 100 ? "Ussain Bolt" : "Tyson Gay",
   "won the race !"
 );
+
+// Exercice 4
+var box1 = 12;
+var box2 = 5;
+while (box1 > 0) {
+  console.log("Exercice 4 -->", box2);
+  box1 -= 10;
+  console.log("Exercice 4 -->", box1);
+}
