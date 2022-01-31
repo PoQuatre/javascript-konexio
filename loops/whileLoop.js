@@ -15,3 +15,18 @@ while (dice !== 6) {
 }
 
 console.log("Exercice 2 -->", count);
+
+// Exercice 3
+let ussainBolt = 0;
+let tysonGay = 0;
+
+while (ussainBolt <= 100 && tysonGay <= 100) {
+  ussainBolt += Math.ceil(Math.random() * 10);
+  tysonGay += Math.ceil(Math.random() * 10);
+}
+
+console.log(
+  "Exercice 3 -->",
+  ussainBolt > 100 ? "Ussain Bolt" : "Tyson Gay",
+  "won the race !"
+);
