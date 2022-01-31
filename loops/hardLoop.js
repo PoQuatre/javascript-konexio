@@ -25,3 +25,20 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 console.log("Exercice 2 -->", max);
+
+// Exercice 3
+numbers = [];
+
+for (let i = 0; i < 50; i++) {
+  numbers.push(Math.floor(Math.random() * 151) + 50);
+}
+
+let i = 0;
+
+while (i < numbers.length) {
+  if (numbers[i] >= 75 && numbers[i] <= 100) {
+    console.log("Exercice 3 -->", numbers[i]);
+    break;
+  }
+  i++;
+}
