@@ -44,3 +44,20 @@ for (var i = 12; i !== 0; i = i - 3) {
 }
 console.log("Exercice 5 -->", box1);
 console.log("Exercice 5 -->", i);
+
+// Exercice 6
+var box1 = 0;
+var box2 = 3;
+for (var i = 0; i > -4; i--) {
+  if (i % 2 === 0) {
+    console.log("Exercice 6 -->", box1 + i);
+    box2++;
+  } else {
+    console.log("Exercice 6 -->", box2 + i);
+    box1--;
+  }
+}
+
+console.log("Exercice 6 -->", box1);
+console.log("Exercice 6 -->", box2);
+console.log("Exercice 6 -->", i);
