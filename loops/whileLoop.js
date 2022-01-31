@@ -39,3 +39,13 @@ while (box1 > 0) {
   box1 -= 10;
   console.log("Exercice 4 -->", box1);
 }
+
+// Exercice 5
+i = 0;
+var box1 = 7;
+while (i > 0) {
+  i++;
+  console.log("Exercice 5 -->", box1 + i);
+}
+console.log("Exercice 5 -->", i);
+console.log("Exercice 5 -->", box1);
