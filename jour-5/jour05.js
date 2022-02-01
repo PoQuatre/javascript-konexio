@@ -33,13 +33,8 @@ console.log(
   calculate(args.shift(), args.shift(), args.shift())
 );
 
-// Exercice 2
-function multiply(num) {
-  num = parseInt(num);
-  console.log("Exercice 2 --> Table de multiplication de", num);
-  for (let i = 1; i <= 10; i++) {
-    console.log("Exercice 2 -->", num, "x", i, "=", num * i);
-  }
-}
+// Exercice 2 / 3
+const { multiply, addition } = require("./table-utils");
 
 multiply(args.shift());
+addition(args.shift());
