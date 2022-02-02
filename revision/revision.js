@@ -46,3 +46,20 @@ function checkPal(str) {
 
 checkPal("racecar");
 checkPal("laptop");
+
+// Exercice 4
+function swap(str) {
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === str[i].toLowerCase()) {
+      result += str[i].toUpperCase();
+    } else {
+      result += str[i].toLowerCase();
+    }
+  }
+
+  return result;
+}
+
+console.log("Exercice 4 -->", swap("Hello World !"));
