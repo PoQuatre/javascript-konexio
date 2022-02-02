@@ -29,3 +29,20 @@ function countEach(str) {
 
 console.log("Exercice 2 -->", countEach("xxxoooox"));
 console.log("Exercice 2 -->", countEach("xox"));
+
+// Exercice 3
+function checkPal(str) {
+  let reverse = str.split("").reverse().join("");
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] !== reverse[i]) {
+      console.log("Exercice 3 -->", "Nope");
+      return;
+    }
+  }
+
+  console.log("Exercice 3 -->", "Palindrome !");
+}
+
+checkPal("racecar");
+checkPal("laptop");
