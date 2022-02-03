@@ -28,3 +28,8 @@ const shortNames = longNames.map((person) => {
 });
 
 console.log("Exercice 3 -->", shortNames);
+
+// Exercice 4
+const array2 = [1, "toto", 34, "javascript", 8];
+const numbers = array2.filter((item) => typeof item === "number");
+console.log("Exercice 4 -->", numbers);
