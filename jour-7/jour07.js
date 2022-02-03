@@ -33,3 +33,8 @@ console.log("Exercice 3 -->", shortNames);
 const array2 = [1, "toto", 34, "javascript", 8];
 const numbers = array2.filter((item) => typeof item === "number");
 console.log("Exercice 4 -->", numbers);
+
+// Exercice 5
+const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8];
+const even = numbers2.filter((x) => x % 2 === 0);
+console.log("Exercice 5 -->", even);
