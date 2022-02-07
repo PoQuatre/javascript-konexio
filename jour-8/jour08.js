@@ -26,3 +26,16 @@ const getFact = () => {
 };
 
 getFact();
+
+// Exercice 3
+const catchPokemon = (id) => {
+  request.get(`https://pokeapi.co/api/v2/pokemon/${id}`, (err, res, body) => {
+    const data = JSON.parse(body);
+    console.log("Exercice 3 -->", {
+      id: data.id,
+      name: data.name,
+    });
+  });
+};
+
+catchPokemon(25);
